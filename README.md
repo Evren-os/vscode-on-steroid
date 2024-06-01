@@ -9,7 +9,7 @@ This is my personal Visual Studio Code setup for a distraction-free and seamless
 Although this setup mimics a Vim-like look, it doesn't use any Vim keybindings. It utilizes the default VSCode keybindings with some customizations. I also tweaked the theme for more darker and staurated look.
 
 - **Hidden UI Elements**: 
-  - **Activity Bar**: Toggle on/off with `Ctrl + Alt + A`
+  - **Activity Bar**: Toggle on/off with `Ctrl + Alt + A` (set keymap manually) 
   - **Menu Bar**: Toggle on/off with `Alt`
   - **Status Bar**: Hidden for a cleaner interface
 
