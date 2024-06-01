@@ -1,0 +1,174 @@
+{
+  // Editor settings
+  "editor.fontFamily": "Maple Mono NF",
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": true,
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.horizontal": "auto",
+  "editor.scrollbar.verticalScrollbarSize": 12,
+  "editor.scrollbar.horizontalScrollbarSize": 12,
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 1,
+  "editor.smoothScrolling": true,
+  "editor.lineNumbers": "on",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.sortImports": "explicit"
+  },
+
+  // File settings
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/.husky": true,
+    "**/drizzle": true,
+    "**/dist": true,
+    "**/.todo.md": true,
+    "**/.vscode": true,
+    "**/.eslintrc.cjs": true,
+    "**/.editorconfig": true,
+    "**/.gitignore": true,
+    "**/.lintstagedrc.mjs": true,
+    "**/.markdownlint.json": true,
+    "**/.markdownlintignore": true,
+    "**/.prettierignore": true,
+    "**/bun.lockb": true,
+    "**/cspell.json": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/next-env.d.ts": true,
+    "**/postcss.config.cjs": true,
+    "**/prettier.config.js": true,
+    "**/README.md": true,
+    "**/next.config.js": true,
+    "**/tailwind.config.ts": true,
+    "**/drizzle.config.ts": true,
+    "**/migrate.ts": true,
+    "**/.env.example": true
+  },
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.closeOnFileDelete": true,
+  "window.title": "${activeEditorShort}${separator}${rootName}",
+  "extensions.ignoreRecommendations": true,
+
+  // Miscellaneous
+  "keyboard.dispatch": "keyCode",
+  "telemetry.telemetryLevel": "off",
+  "editor.wordWrap": "on",
+
+  // Token color customizations for Catppuccin Mocha
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Catppuccin Mocha Italic",
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "keyword",
+          "markup.underline.link",
+          "storage.modifier",
+          "storage.type",
+          "string.url",
+          "variable.language.super",
+          "variable.language.this"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Catppuccin Mocha Italic Reset",
+        "scope": [
+          "keyword.operator",
+          "keyword.other.type",
+          "storage.modifier.import",
+          "storage.modifier.package",
+          "storage.type.built-in",
+          "storage.type.function.arrow",
+          "storage.type.generic",
+          "storage.type.java",
+          "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+
+  // Workbench color customizations for tiny and rounded scrollbars
+  "workbench.colorCustomizations": {
+    "editor.background": "#11111b",
+    "sideBar.background": "#11111b",
+    "panel.background": "#11111b",
+    "activityBar.background": "#11111b",
+    "titleBar.activeBackground": "#11111b",
+    "statusBar.background": "#11111b",
+    "scrollbarSlider.background": "#33333380",
+    "scrollbarSlider.hoverBackground": "#55555580",
+    "scrollbarSlider.activeBackground": "#77777780",
+    "scrollbarSlider.border": "#00000000",
+    "scrollbarSlider.borderRadius": "5px",
+    "editorGutter.background": "#11111b",
+    "editorLineNumber.foreground": "#676b79",
+    "tab.activeBackground": "#11111b",
+    "tab.inactiveBackground": "#11111b",
+    "tab.border": "#11111b",
+    "statusBar.noFolderBackground": "#11111b",
+    "statusBarItem.remoteBackground": "#11111b",
+    "statusBar.debuggingBackground": "#11111b",
+    "editorGroupHeader.tabsBackground": "#11111b",
+    "titleBar.inactiveBackground": "#11111b",
+    "breadcrumb.background": "#11111b",
+    "breadcrumb.focusForeground": "#f5f5f5", // Light bottom border color
+    "breadcrumb.focusBackground": "#11111b" // Keep the background dark
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "git.openRepositoryInParentFolders": "never",
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.menuBarVisibility": "toggle",
+  "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "bromium",
+  "catppuccin.workbenchMode": "minimal",
+  "workbench.colorTheme": "Catppuccin Mocha",
+
+  // Performance related settings
+  "files.hotExit": "onExit", // Disable hot exit and restart on app close
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  "search.useGlobalIgnoreFiles": true,
+  "editor.renderWhitespace": "none", // Disable whitespace rendering
+  "editor.renderControlCharacters": false, // Disable control character rendering
+  "extensions.autoCheckUpdates": false, // Disable auto-checking for extension updates
+  "extensions.autoUpdate": false, // Disable auto-updating extensions
+  "update.mode": "none",
+  "workbench.activityBar.location": "hidden" // Disable auto-updating VS Code
+}
