@@ -2,7 +2,8 @@
 
 This is my personal Visual Studio Code setup for a distraction-free and seamless coding environment with a Vim-like appearance.
 
-![VSCode Setup](https://github.com/Evre-nos/vscode-on-steroid/assets/138004078/3b4fc5d8-2a30-44ae-a358-88f5db28f808)
+![image](https://github.com/Evre-nos/vscode-on-steroid/assets/138004078/24f6c1a6-74b7-489b-9d2f-070631552d48)
+
 
 ## Main Features
 
