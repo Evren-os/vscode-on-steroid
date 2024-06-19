@@ -16,7 +16,7 @@ Although this setup mimics a Vim-like look, it doesn't use any Vim keybindings. 
 
 ## Extensions and Fonts
 
-- **Theme**: [Catppuccin Mocha](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
-- **Icons**: [Bromium Icons](https://marketplace.visualstudio.com/items?itemName=TheBromo.bromium-icons)
-- **Font**: [Maple Mono NF](https://github.com/subframe7536/maple-font) for editor and terminal
+- **Theme**: [Solarized Osaka](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
+- **Icons**: [JetBrains Icon Theme](https://marketplace.visualstudio.com/items?itemName=chadalen.vscode-jetbrains-icon-theme)
+- **Font**: [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) for editor and terminal
 - **Formatter**: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting
