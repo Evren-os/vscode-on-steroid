@@ -16,7 +16,7 @@ Although this setup mimics a Vim-like look, it doesn't use any Vim keybindings. 
 
 ## Extensions and Fonts
 
-- **Theme**: [Solarized Osaka](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
+- **Theme**: [Solarized Osaka](https://marketplace.visualstudio.com/items?itemName=sherloach.solarized-osaka)
 - **Icons**: [JetBrains Icon Theme](https://marketplace.visualstudio.com/items?itemName=chadalen.vscode-jetbrains-icon-theme)
 - **Font**: [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) for editor and terminal
 - **Formatter**: [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting
